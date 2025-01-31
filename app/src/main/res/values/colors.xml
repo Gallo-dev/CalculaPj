@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#383B4F</color>
+    <color name="colorPrimaryVariant">#383B4F</color>
+    <color name="background_app">#4B529D</color>
+
+    <color name="red">#D66767</color>
+    <color name="cinza">#F4F0F0</color>
+    <color name="green">#379737</color>
+    <color name="backgroundCard">#5E5F66</color>
+</resources>
