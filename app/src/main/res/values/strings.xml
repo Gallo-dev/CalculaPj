@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">CalculaPj</string>
+
+    //------ Texto de apresentação ---------
+
+    <string name="titulo_como_calcular">Como calcular seu salário PJ?</string>
+
+    <string name="txt_como_calcular">
+        Para calcular um salário como Pessoa Jurídica (PJ), é preciso considerar que, diferentemente do regime CLT,
+        o profissional PJ não recebe benefícios como FGTS, 13º salário, férias remuneradas ou INSS pago pela empresa. Assim,
+        o cálculo do valor ideal deve levar em conta todos esses custos.
+        \n\n
+        <u>Passos para calcular o salário PJ:</u>
+        \n\n
+        - Definir o salário líquido desejado \n
+        - O valor que você gostaria de receber já descontando impostos e custos.\n
+        - Incluir benefícios equivalentes como férias, 13º salário, plano de saúde, INSS e FGTS,
+        que um CLT teria e que você precisa cobrir por conta própria.\n
+        - Considerar impostos se for MEI, o custo mensal é fixo (DAS).
+        Se for uma ME ou outro regime tributário, há impostos como Simples Nacional (entre 6% e 15%) ou ISS (se for autônomo).\n
+        - Calcular despesas operacionais. Se houver custos com contador, softwares, internet, espaço de trabalho, entre outros.\n
+        - Definir um valor/hora – Considerando uma jornada de trabalho, divida o total de custos pelo número de horas trabalhadas no mês.\n\n
+        Na prática, uma remuneração de PJ bruta precisa ser, em média, de 20% a 50% maior do que o salário bruto como CLT.
+    </string>
+
+    <string name="titulo_clt_x_pj">Diferenças entre PJ e CLT</string>
+
+    <string name="txt_clt_pj">
+        A principal diferença entre CLT e PJ está na forma de contratação e nos direitos trabalhistas.
+        O regime CLT garante benefícios como 13º salário, férias remuneradas, FGTS, INSS e estabilidade,
+        além de seguir regras específicas sobre jornada de trabalho e rescisão.
+        Em contrapartida, há descontos na folha de pagamento e maior carga tributária para a empresa.
+        Já o modelo PJ funciona como uma prestação de serviço, onde o profissional emite nota fiscal e recebe o pagamento integral,
+        sem os descontos obrigatórios da CLT. No entanto, não há benefícios garantidos, e o próprio trabalhador deve arcar com impostos,
+         previdência e eventuais períodos sem trabalho. Enquanto a CLT oferece mais segurança e estabilidade,
+         o PJ pode proporcionar maior flexibilidade e ganhos financeiros, dependendo do contrato negociado.
+    </string>
+
+    //------------ Texto Detalhe do Resultado ----------
+
+    <string name="txt_sucesso_resultado"> Calculo Realizado com sucesso!!! </string>
+
+    <string name="txt_um_resultado">
+        Com base nas informações fornecidas, analisamos os valores dos benefícios que você atualmente recebe como CLT
+        e adicionamos as vantagens e os custos envolvidos na migração para um regime PJ.
+
+        O valor justo para sua negociação como Pessoa Jurídica é de:
+    </string>
+
+    <string name="txt_observacao_resultado"> Observação: </string>
+
+    <string name="txt_dois_resultado">
+        Esse seria um valor aproximado para seu salário Pj, ncluindo benefícios como vale-refeição, vale-alimentação e vale-transporte,
+        além de custos adicionais, como plano de saúde, previdência,
+         férias, 13º salário e também o FGTS, também ja descontado o valor médio de um contador e (DAS) .
+
+        Lembre-se: Esse cálculo é uma estimativa baseada nas informações fornecidas e
+        na modalidade MEI(Microempreendedor Individual),
+        e podem variar de acordo com outros fatores, como impostos e
+        taxas administrativas específicas. Analise com cuidado e utilize este valor como uma referência na sua negociação.
+        </string>
+
+
+</resources>
