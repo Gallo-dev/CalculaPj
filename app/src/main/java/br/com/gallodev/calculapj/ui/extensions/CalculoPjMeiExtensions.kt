@@ -22,17 +22,6 @@ fun ActivityInformacoes.calculaSalarioPjExtension(
     val contador = fgts - VALOR_FIXO_CONTADOR
     val das = contador - VALOR_FIXO_DAS
 
-    Log.d("calculaSalarioPjExtension", "Salário CLT: $salarioClt")
-    Log.d("calculaSalarioPjExtension", "Vale Refeição: $valeRefeicao")
-    Log.d("calculaSalarioPjExtension", "Vale Alimentação: $valeAlimentacao")
-    Log.d("calculaSalarioPjExtension", "Vale Transporte: $valeTransporte")
-    Log.d("calculaSalarioPjExtension", "Plano de Saúde: $planoSaude")
-    Log.d("calculaSalarioPjExtension", "1/12 Décimo Terceiro: $umDozeAvosDecimoTer")
-    Log.d("calculaSalarioPjExtension", "1/12 Férias: $umDozeAvosFerias")
-    Log.d("calculaSalarioPjExtension", "1/3 Férias: $umTercoFerias")
-    Log.d("calculaSalarioPjExtension", "FGTS: $fgts")
-    Log.d("calculaSalarioPjExtension", "Contador: $contador")
-    Log.d("calculaSalarioPjExtension", "DAS: $das")
 
     val valorCalculado = salarioClt + valeRefeicao + valeAlimentacao + valeTransporte + planoSaude + umDozeAvosDecimoTer + umDozeAvosFerias + umTercoFerias + das
     Log.d("calculaSalarioPjExtension", "Resultado: $valorCalculado")
