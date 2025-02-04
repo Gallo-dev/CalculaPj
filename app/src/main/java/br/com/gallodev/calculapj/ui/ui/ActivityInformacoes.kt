@@ -29,6 +29,7 @@ class ActivityInformacoes : AppCompatActivity() {
         binding.activityInformaDigitaVa.formatCurrency()
         binding.activityInformaDigitaVt.formatCurrency()
         binding.activityInformaDigitaPlanoSaude.formatCurrency()
+
     }
 
     override fun onResume() {
@@ -41,12 +42,12 @@ class ActivityInformacoes : AppCompatActivity() {
         val apagaString = text.replace("R$", "").trim()
 
         // Remove todos os pontos (separadores de milhar)
-        val separaCentesimal = apagaString.replace(".", "")
+        val removePonto = apagaString.replace(".", "")
 
-        val stringpreparada = separaCentesimal.replace(",", ".")
+        val preparaString = removePonto.replace(",", ".")
 
-        return if (stringpreparada.isNotBlank()) {
-            stringpreparada.toDouble()
+        return if (preparaString.isNotBlank()) {
+            preparaString.toDouble()
         } else {
             0.0
         }
@@ -65,11 +66,6 @@ class ActivityInformacoes : AppCompatActivity() {
         val valeTransporte = obterValorDouble(binding.activityInformaDigitaVt)
         val planoSaude = obterValorDouble(binding.activityInformaDigitaPlanoSaude)
 
-        Log.d("ActivityInformacoes", "valor Salario CLT: $salarioClt")
-        Log.d("ActivityInformacoes", "valor Vale Refeição: $valeRefeicao")
-        Log.d("ActivityInformacoes", "valor Vale Alimentação: $valeAlimentacao")
-        Log.d("ActivityInformacoes", "valor Vale Transporte: $valeTransporte")
-        Log.d("ActivityInformacoes", "valor Plano de Saúde: $planoSaude")
 
         val resultado = calculaSalarioPjExtension(
             salarioClt,
@@ -86,13 +82,8 @@ class ActivityInformacoes : AppCompatActivity() {
     private fun calcular() {
         //--------- Eventos de clique do botão calcular -----------
         binding.botaoCalcular.setOnClickListener {
-            Log.d("ActivityInformacoes", "Botão Calcular clicado")
             val valorCalculado = calcularSalarioPj()
             if (valorCalculado != null) {
-                Log.d(
-                    "ActivityInformacoes",
-                    "Valor calculado: $valorCalculado. Vai para a tela de detalhe"
-                )
                 vaiParaDetalheResultado(valorCalculado)
 
             } else {
@@ -102,18 +93,17 @@ class ActivityInformacoes : AppCompatActivity() {
                 )
                 Toast.makeText(this, "Prencha o campo Obrigatório", Toast.LENGTH_SHORT).show()
             }
+            finish()
         }
     }
 
     private fun vaiParaDetalheResultado(valorCalculado: Double) {
         //---------- Função que busca e presenta o resultado formatado -----------
         val valorFormatado = formatoMoedaBrasileiraExtension(BigDecimal(valorCalculado))
-        Log.d("ActivityInformacoes", "Valor formatado: $valorFormatado")
         val mensagemValor = "\uD83D\uDCB0 $valorFormatado"
 
         val intent = Intent(this, ActivityDetalheResultado::class.java)
         intent.putExtra("mensagemValor", mensagemValor)
-        Log.d("ActivityInformacoes", "Vai para a tela de detalhe")
         startActivity(intent)
 
     }

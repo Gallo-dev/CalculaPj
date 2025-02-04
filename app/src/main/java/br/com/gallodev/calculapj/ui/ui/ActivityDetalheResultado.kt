@@ -32,7 +32,6 @@ class ActivityDetalheResultado : AppCompatActivity() {
         val mensagemValor = intent.getStringExtra("mensagemValor")
         val resultado = findViewById<TextView>(R.id.detalhe_valor_calculado)
         resultado.text = mensagemValor
-        Log.d("ActivityDetalheResultado", "Resultado: $mensagemValor")
     }
 
     private fun recalcular(){

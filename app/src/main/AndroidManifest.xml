@@ -20,7 +20,7 @@
             android:exported="false" />
         <activity android:name=".ui.ui.ActivityDetalheResultado" />
         <activity
-            android:name=".ui.ui.ActivitySplashScreen"
+            android:name=".ui.ui.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
