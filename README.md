@@ -1,4 +1,5 @@
 # 📱 Calcula PJ  
+<img src ="https://github.com/user-attachments/assets/36a2892d-e90b-4669-81ab-24794c0e7c2a" alt="Informações sobre o salrio Pj" width="100">
 
 Um app Android que auxilia profissionais a comparar a remuneração entre contratos CLT e PJ. Ele calcula o salário somado aos benefícios e retorna um valor equivalente para facilitar a tomada de decisão.  
 
@@ -32,11 +33,11 @@ Um app Android que auxilia profissionais a comparar a remuneração entre contra
 
 ## 📷 Capturas de Tela
 
-<img src ="https://github.com/user-attachments/assets/5ebadfb4-2f07-4c10-8163-c61e9d0741d3" alt="Informações sobre o salrio Pj" width="150">
-<img src ="https://github.com/user-attachments/assets/52f9b112-c846-4d74-b5af-320597fec60a" alt="Informações sobre o salrio Pj" width="150">
-<img src ="https://github.com/user-attachments/assets/75d4e445-6404-4805-afb6-d886f358bee2" alt="Informações sobre o salrio Pj" width="150">
-<img src ="https://github.com/user-attachments/assets/9a875407-90b8-47f2-a980-710550e8bcea" alt="Informações sobre o salrio Pj" width="150">
-<img src ="https://github.com/user-attachments/assets/2b384630-c684-4d26-a6da-5dcf244e2d96" alt="Informações sobre o salrio Pj" width="150">
+<img src ="https://github.com/user-attachments/assets/2c4c9dc3-985c-4b53-97f0-1fe29bb6ac51" alt="Informações sobre o salrio Pj" width="150">
+<img src ="https://github.com/user-attachments/assets/de3c93fe-4fac-460f-b115-44c52088f641" alt="Informações sobre o salrio Pj" width="155">
+<img src ="https://github.com/user-attachments/assets/75d4e445-6404-4805-afb6-d886f358bee2" alt="Informações sobre o salrio Pj" width="154">
+<img src ="https://github.com/user-attachments/assets/9a875407-90b8-47f2-a980-710550e8bcea" alt="Informações sobre o salrio Pj" width="154">
+<img src ="https://github.com/user-attachments/assets/2b384630-c684-4d26-a6da-5dcf244e2d96" alt="Informações sobre o salrio Pj" width="154">
 
 ## 🤝 Contribuição
 **Sinta-se à vontade para contribuir! 
@@ -61,6 +62,7 @@ Abra um Pull Request para análise**
 ## 📜 Licença
 
 **Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.**
+
 
 
 
